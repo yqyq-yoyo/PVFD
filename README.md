@@ -1,2 +1,7 @@
 # PVFD
 For the first time, we construct a PVFD dataset containing multiple PV fault types. Unlike existing datasets, which typically cover only a single type of failure, the PVFD dataset subdivides PV failures into three types: "Hotspot", "Fracture" and "Battery string failures" according to the cause and form of the failure. This dataset provides more comprehensive PV module fault detection data, which promotes the further development of research in this field.
+
+The experimental data set in this paper is from the infrared image acquisition task of a PV power plant in Guangxi. The PVFD dataset contains a total of 1715 images with a resolution of 640×512 pixels, which are divided into training set and test set according to the ratio of 7:3. For images containing fault targets, we used Labelimg software to accurately mark them, and divided the fault types into three categories: "spot", "fracture" and "battery".  Hot spots are usually caused by battery defects (such as aging, cracks) or obstructions (such as leaves, and cables), and appear as local overheating, resulting in an energy imbalance. Component fragmentation is mostly caused by improper construction, environmental factors or tempered glass self-explosion, and failure to repair fragmentation in time will aggravate battery damage. Battery string failures are caused by welding, poor junction box sealing or lightning strikes, and the image is characterized by local temperature anomalies, showing bright rectangular areas. 
+
+数据集地址
+链接: https://pan.baidu.com/s/1vnfe6sezKiEBgnOOMq8d5g 提取码: yoyo 
