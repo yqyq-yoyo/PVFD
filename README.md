@@ -1,2 +1,2 @@
 # PVFD
-Photovoltaic Fault Detection Dataset Construction
+For the first time, we construct a PVFD dataset containing multiple PV fault types. Unlike existing datasets, which typically cover only a single type of failure, the PVFD dataset subdivides PV failures into three types: "Hotspot", "Fracture" and "Battery string failures" according to the cause and form of the failure. This dataset provides more comprehensive PV module fault detection data, which promotes the further development of research in this field.
